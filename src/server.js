@@ -42,7 +42,7 @@ function handleRequest (req, res) {
   }
 
   const slug = req.url.startsWith(PRODUCT_PATH_PREFIX)
-    ? decodeURIComponent(req.url.slice(PRODUCT_PATH_PREFIX.length))
+    ? req.url.slice(PRODUCT_PATH_PREFIX.length)
     : null
   const product = slug && findProductBySlug(slug)
 
