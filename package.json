@@ -1,0 +1,11 @@
+{
+  "name": "mini-shop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Навчальний комерційний вебзастосунок для аналізу авторських прав на код (ПР2)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
